@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+}
+.main{
+    background-image: url("assets/images/Bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+    height: 80vh;
+    position: relative;
+     z-index: 1;
+}
+img.logo-red {
+  filter: brightness(0) saturate(100%) invert(16%) sepia(100%) saturate(6000%) hue-rotate(-10deg);
+}
+
+.main .box{
+    width: 100%;
+    height: 80vh;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    z-index: 0;
+}
+
+nav{
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    color: red;
+    width: 100px;
+    position: relative;
+    z-index: 10;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.fill{
+    color: red;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    font-family: 'Martel Sans', sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 2;
+    gap : 18px;
+    padding: 30px;
+    text-align: center;
+}
+.hero :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+.hero :nth-child(2){
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.hero :nth-child(3){
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+}
+
+.redbtn{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn{
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.email{
+    padding: 20px 150px 20px 30px ;
+    margin: 40px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+}
